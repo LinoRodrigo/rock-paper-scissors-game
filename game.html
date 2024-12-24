@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>rock, paper, scissors game</title>
+</head>
+<body>
+    <div id="score-container">
+        <p class="scoress">Bot: <span id="Bot-score">0</span></p>
+        <p class="scoress">You: <span id="You-score">0</span></p>
+    </div>
+    <div class="game">
+        <div class="ComputerPlay">
+            <p id="ShowPcPlay"></p>
+        </div>
+        <div class="PlayerSMove">
+            <p id="ShowPlayerPlay"></p>
+        </div>
+
+    </div>
+    <div class="buttons-game">
+        <button class="buttons" onclick="ToPlay('rock👊')">👊</button>
+        <button class="buttons" onclick="ToPlay('paper🤚')">🤚</button>
+        <button class="buttons" onclick="ToPlay('scissors✌')">✌</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
